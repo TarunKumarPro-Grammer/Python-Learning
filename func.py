@@ -16,9 +16,16 @@
 #--------------------------------------------------------
 #important = variable number argument, simple average to any amount of numbers so what write 100 arguments for it, no
 
-def average(*numbers): #numbers is now iterable, like a list of somesort
+def average(*numbers): #numbers is now iterable, like a tuple of somesort
     sum = 0
     for i in numbers:
         sum = sum + i
     print(sum/len(numbers))
-average(1,2,3) # we did'nt had to write 10 arguments to accept 10 arguments
+# average(1,2,3) # we did'nt had to write 10 arguments to accept 10 arguments
+
+# we can even make a dictionary using **
+
+def check(**numbers):
+    print(numbers['name'],numbers['number'])
+    
+check(name='tarun',number=23)
