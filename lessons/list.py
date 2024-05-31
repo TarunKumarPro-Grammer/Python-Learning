@@ -18,3 +18,8 @@ lst = [i for i in range(4)]
 print(lst)
 evenLst = [i for i in range(10) if i%2 == 0 ]
 print(evenLst)
+
+list = [["a",1],["b",2],["c",3]]
+for sec in list:
+    for ques in sec:
+        print(ques)
