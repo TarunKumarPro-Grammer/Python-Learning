@@ -11,6 +11,7 @@
 
 #------------------------------------
 # while True:
+    #see you can use vim commmands now but still slow
 #     guess = int(input("Enter a Number : "))
 #     if guess == secret_num:
 #         print("You guessed it right!")
@@ -27,10 +28,11 @@ x=0
 while ((x:=x+1) < 10):
     print(x)
 print("something")
+
 #The above expression is equivalent to 
 # while True:
 #     if x<10:
 #         print(x)
 #     else:
-#         break
+
 #     x =x+1
