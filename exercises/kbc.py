@@ -37,7 +37,9 @@ chances: int = 1
 
 while True:
     if counter < len(loweranswers):
+        print(f'You Have {chances} left')
         print(questions[counter],"\n")
+        
     else:
         break
     temp = input("Enter a valid response(don't worry about the case) :")
