@@ -34,7 +34,6 @@ money =0
 chances: int = 1
 
 
-
 while True:
     if counter < len(loweranswers):
         print(f'You Have {chances} left')
